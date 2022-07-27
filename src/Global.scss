@@ -1,0 +1,167 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+table,
+th,
+td,
+form,
+fieldset,
+legend,
+textarea,
+input,
+select,
+textarea,
+button,
+strong {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-size: 14px;
+  color: #000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-text-size-adjust: none;
+}
+fieldset,
+li,
+img {
+  border: 0;
+  vertical-align: top;
+}
+ul,
+ol {
+  list-style: none;
+}
+button,
+input[type="button"] {
+  overflow: visible;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+address,
+caption,
+em {
+  font-style: normal;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+  -moz-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+select,
+input {
+  border: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+input:disabled {
+  opacity: 1;
+}
+hr {
+  display: none;
+}
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+  -moz-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+body,
+input,
+select,
+textarea,
+button {
+  line-height: 18px;
+  font-family: -apple-system, ‘SF Pro Text’, ‘Apple SD Gothic Neo’, ‘Roboto’,
+    ‘Noto Sans KR’, sans-serif;
+}
+::selection {
+  background: rgba(0, 0, 0, 0.1);
+  text-shadow: none;
+}
+::-webkit-selection {
+  background: rgba(0, 0, 0, 0.1);
+  text-shadow: none;
+}
+::-moz-selection {
+  background: rgba(0, 0, 0, 0.1);
+  text-shadow: none;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+button:focus,
+input:focus,
+select:focus,
+a:focus {
+  outline: none;
+}
+
+.blind,
+caption,
+legend {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  font-size: 0px;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  background: 0 0;
+  height: 0;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-appearance: none;
+}
+
+.content {
+  position: relative;
+  height: 100%;
+  margin-top: 62px;
+}
+@media only screen and (min-width: 830px) {
+  .content {
+    margin-top: 92px;
+  }
+}
